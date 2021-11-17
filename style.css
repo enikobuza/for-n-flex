@@ -1,0 +1,71 @@
+* {margin:0;padding:0;border:0;background:transparent;outline:none;text-decoration:none;outline:none;font-family:inherit;box-sizing:border-box;}
+
+ol, 
+ul, 
+li {
+  list-style:none;
+  display:block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing:0;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer; 
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+input,
+textarea,
+select {
+  appearance: none !important; 
+  -webkit-appearance: none !important; 
+  border-radius: 0;
+}
+
+body {
+    background-color: #8E8E8E;
+    font-family: 'Lato', sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#root div {
+    flex-basis: 150px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+    
+    border: 2px solid grey;
+    border-radius: 5%;
+    
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 5px 5px 10px #000000;
+
+    background-image: url(https://mcdn.wallpapersafari.com/medium/65/28/0629TU.png);
+    box-shadow: 5px 5px 10px rgb(43, 42, 42);
+
+}
